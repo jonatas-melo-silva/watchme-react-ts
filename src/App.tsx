@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 
 import { SideBar, Content } from './components/index'
-
 import { Genre } from './types'
 
 import { api } from './services/api'

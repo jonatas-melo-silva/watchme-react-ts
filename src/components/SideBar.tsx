@@ -1,10 +1,11 @@
-import { Button } from './index'
+import { useEffect, useState } from 'react'
 
+import { Button } from './index'
 import { Genre } from '../types'
 
-import '../styles/sidebar.scss'
-import { useEffect, useState } from 'react'
 import { api } from '../services/api'
+
+import '../styles/sidebar.scss'
 
 interface SideBarProps {
   handleClickButton: (id: number) => void

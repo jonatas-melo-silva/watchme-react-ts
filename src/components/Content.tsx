@@ -1,10 +1,11 @@
-import { Header, MovieCard } from './index'
-
-import { Genre, Movie } from '../types'
 import { useEffect, useState } from 'react'
 
-import '../styles/content.scss'
+import { Header, MovieCard } from './index'
+import { Genre, Movie } from '../types'
+
 import { api } from '../services/api'
+
+import '../styles/content.scss'
 
 interface ContentProps {
   selectedGenre: Genre
